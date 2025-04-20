@@ -1,5 +1,8 @@
 import asyncio
 
+
+# test
+
 async def make_coffee():
     print("Начинаю готовить кофе...")
     await asyncio.sleep(3)  # Ждём 3 секунды (имитация приготовления)
@@ -7,7 +10,7 @@ async def make_coffee():
 
 async def make_toast():
     print("Начинаю делать тост...")
-    await asyncio.sleep(2)  # Ждём 2 секунды
+    await asyncio.sleep(2) 
     print("Тост готов!")
 
 async def main():
